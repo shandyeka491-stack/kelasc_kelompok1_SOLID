@@ -6,9 +6,10 @@ class Hewan:
     def makan(self):
         print(f"{self.nama} sedang makan.")
 
+class HewanTerbang:
     def terbang(self):
         print(f"{self.nama} sedang terbang.")
-
+    
 
 class Kandang:
     def __init__(self):
@@ -17,6 +18,7 @@ class Kandang:
     def tambah_hewan(self, hewan):
         self.hewan_list.append(hewan)
 
+class PerawatanKandang:
     def bersihkan_kandang(self):
         print("Kandang dibersihkan.")
 
