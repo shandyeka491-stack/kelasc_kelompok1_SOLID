@@ -43,3 +43,4 @@ class PerawatanHewan:
         for hewan in self.kandang.hewan_list:
             hewan.makan()
             hewan.bergerak()
+
