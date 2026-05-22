@@ -44,3 +44,4 @@ class PerawatanHewan:
             hewan.makan()
             hewan.bergerak()
 
+#
